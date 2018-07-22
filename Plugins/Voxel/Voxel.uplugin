@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.7.1",
+	"FriendlyName": "Voxel",
+	"Description": "Voxel plugin",
+	"Category": "Terrain",
+	"CreatedBy": "Phyronnaz",
+	"CreatedByURL": "https://github.com/Phyronnaz",
+	"DocsURL": "https://github.com/Phyronnaz/MarchingCubes",
+	"MarketplaceURL": "",
+	"SupportURL": "https://forums.unrealengine.com/community/released-projects/125045-free-voxel-plugin",
+	"EngineVersion": "4.18.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Voxel",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "VoxelEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		}
+	]
+}

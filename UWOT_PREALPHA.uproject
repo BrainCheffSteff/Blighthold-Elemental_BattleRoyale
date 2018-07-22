@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{FFCE0988-42FC-A445-879A-42AEE052D32F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UWOT_PREALPHA",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "Voxel",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
+	]
+}
