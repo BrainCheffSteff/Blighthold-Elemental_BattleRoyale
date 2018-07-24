@@ -18,9 +18,9 @@ Blighthold runs on a custom ue4.18.3 found at:
 
 https://github.com/windystrife/UnrealEngine_NVIDIAGameWorks.git
 
-Follow the instructions for building the cutom engine in the link above
-Once built, you should be able to navigate to the project and open it (however first ensure you can open some of the demo projects).
+Follow the instructions for building the cutom engine in the link above.
+Once built, run the custom egnine either through Visual Studio or its executable. After loading, a window will popup which can be used to navigate to this project and open it (however first ensure you can open some of the demo projects). You should now be able to open this projects uproject file to open the editor directly without having to open the custom ue4.18.3 first.
 
 First time opening that build of ue4.18.3 can take several hours, and once launched it hangs at 45% for a long time the first time.
 
-First time compiling and setting up DDC when opining Blighthold editor can take upwards of 2 hours, but subsequent launches are much quicker.
+First time compiling and setting up DDC when opening Blighthold editor can take upwards of and hour, hanging most at 93-96% but subsequent launches are much quicker.
