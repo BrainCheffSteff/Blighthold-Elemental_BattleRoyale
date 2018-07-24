@@ -23,4 +23,4 @@ Once built, run the custom egnine either through Visual Studio or its executable
 
 First time opening that build of ue4.18.3 can take several hours, and once launched it hangs at 45% for a long time the first time.
 
-First time compiling and setting up DDC when opining Blighthold editor can take upwards of and hour, hanging most at 93-96% but subsequent launches are much quicker.
+First time compiling and setting up DDC when opening Blighthold editor can take upwards of and hour, hanging most at 93-96% but subsequent launches are much quicker.
